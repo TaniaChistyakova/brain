@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ******************************************************
+ *
+ *  Copyright (c) 2026 Tania Chistyakova
+ *
+ ****************************************************** 
+-->
+
+
+
+<Configuration xmlns="http://schemas.microsoft.com/vstudio/vsdconfig/2008">
+
+
+  <NativeComponent
+    ComponentId="{11DE63A2-0C3F-499B-9127-39656782047D}"
+    ComponentLevel="9991500"
+    ModuleName="BinaryVisualizer.dll">
+
+    <Class Name="CBinaryVisualizerService" ClassId="{83380B00-0589-4E14-9C0F-E0AEF9C89F63}" WorkerProcessSupported="true">
+
+      <Implements>
+        <InterfaceGroup>
+          <Filter>
+            <!--NOTE: This VisualizerId is also used in the .natvis file.-->
+            <VisualizerId RequiredValue="0AF8A8AB-D569-4A34-9AEE-4FE87F8E168A"/>
+          </Filter>
+          <Interface Name="IDkmCustomVisualizer"/>
+        </InterfaceGroup>
+      </Implements>
+    </Class>
+  
+  </NativeComponent>
+</Configuration>

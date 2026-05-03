@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools-extension-pack",
+        "streetsidesoftware.code-spell-checker-british-english",
+        "james-yu.latex-workshop",
+        "ms-vscode-remote.remote-containers"
+    ]
+}

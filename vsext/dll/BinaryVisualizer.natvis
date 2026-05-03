@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ ******************************************************
+ *
+ *  Copyright (c) 2026 Tania Chistyakova
+ *
+ ****************************************************** 
+-->
+
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+
+  <Type Name="DotArray">
+    <!--NOTE: The 'VisualizerId' is also specified in the .vsdconfigxml to control which
+    implementation of IDkmCustomVisualizer is used.-->
+    <CustomVisualizer VisualizerId="0AF8A8AB-D569-4A34-9AEE-4FE87F8E168A"/>
+  </Type>
+</AutoVisualizer>

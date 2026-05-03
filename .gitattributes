@@ -1,0 +1,7 @@
+[core]
+	* 			text eol=auto
+	/vsext/* 	text eol=crlf
+	*.sh        text eol=lf
+	*.json      text eol=lf
+	*.bat      	text eol=crlf
+	

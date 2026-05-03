@@ -1,0 +1,12 @@
+;-----------------------------------------------------
+;
+;  Copyright (c) 2026 Tania Chistyakova
+;
+;----------------------------------------------------- 
+
+LIBRARY      "BinaryVisualizer.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+

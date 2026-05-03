@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="Dot">
+	<DisplayString>Dot({(int)value})</DisplayString>
+  </Type>
+<!--
+  <Type Name="DotArray">
+	<DisplayString Condition="buffer.size() == 0">DotArray()</DisplayString>
+	<DisplayString>DotArray([{buffer[0],bb}], sz={bitSize})</DisplayString>
+  </Type>
+  -->
+</AutoVisualizer>

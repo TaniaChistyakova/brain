@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="8EFD887C-83C8-4177-A843-EB1357B196D3" Version="1.0" Language="en-US" Publisher="Tania Chistyakova" />
+        <DisplayName>BinaryVisualizer</DisplayName>
+        <Description xml:space="preserve">DotArray viewer</Description>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.8, )">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Debugger" Version="[17.8,)" DisplayName="Visual Studio Debugger" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="DebuggerEngineExtension" Path="BinaryVisualizer.vsdconfig" d:Source="File" />
+        <Asset Type="NativeVisualizer" Path="BinaryVisualizer.natvis"  />
+    </Assets>
+</PackageManifest>

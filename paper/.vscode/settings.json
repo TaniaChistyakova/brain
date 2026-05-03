@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        "**/build": true
+    }
+	"latex-workshop.latex.outDir": "%DIR%/build",
+    "cSpell.language": "en-GB"
+}

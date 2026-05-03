@@ -1,0 +1,15 @@
+{
+  "build": { "dockerfile": "Dockerfile" },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "ms-vscode.cpptools-extension-pack",
+        "streetsidesoftware.code-spell-checker-british-english",
+        "James-Yu.latex-workshop"
+      ]
+    }
+  },
+
+}
